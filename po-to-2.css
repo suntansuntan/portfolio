@@ -167,6 +167,41 @@ header {
 @media (max-width: 670px) {
     .header-left h1 {
         font-size: 70px;
+        float: left;
+        font-family: fantasy;
+        line-height: 60px;
+        margin-left: 15px;
+        color: black;
+        width: 50%;
+        text-align: left;
+    
+    }
+    .profile-content {
+        margin-top: 100px;
+    }
+    .profile-content img {
+        width: 100px;
+        float: left;
+        margin: 0 20px 0 70px;        
+    }
+    .PR p {
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .skile {
+        overflow: hidden;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .skile-map img {
+        width: 70px;
+        margin: 0 auto;
+        float: none;
+    }
+    .skile-menu {
+        float: none;
+        text-align: left;
     }
     
 }
