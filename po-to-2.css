@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(https://lh3.googleusercontent.com/1C0NjL8VDXk-Jw_Vn01cmD3peamowJfku_2UPpUzewZggWZpF4zqDb2qJaksBC8i5ASWkrzvU_jQ3ecFnObJmfu9Bm0CRengwbz6GDf0eX3-KI5ZNpb5x7zhXaUhkMP03Gz_6qBNdBA3VNAmcjsL68SaWguDHSMIx099V6t-Ndg2YRI2kKufFPWr1PmSHyCDRT3m-GFvNuQlH3RwGMvOWESBdka-Pf5UshvXyJqC4gtlTvj03YlhvklzZ4tfGAbP6pwRWBvGPxUN77Hu862PGrLoo9FdI_BMrwjE4HBwZ3eLt0OHAdOF2aRjTOK-fy2zUon5z5CGVtFkoOc9IrpledeSExI-JbHPVmezfXx8-mIz_ls25uB97IjZMdwGA1uwcr8g5-x2jBpiF2lZdKWPDmQb4XfxM4GBpF3UzkH5BJLYMpvdUE7PHsARfno4MNFekhuwRrWPCkPaVuJzl0H7VuVilAiderHIzB3KMnLm4K9wK-W4LjWs3xMzIR9bQw0Nx6phMDqDE5er5_hZSr04nu_A88XDAwkdZcgfOoDSaTEQE9ALQwjGOs-xuzJiaKayI5hAvnY8tQTeymZeAIK0Yw2q2YKlUPtGJEQkt0AuFeVJQZox0ihscSd3woUZkQiZ6oI3tOaM12YTXS3VdJ40gELOSCuuVkHBrobHx0VSbJeIgnEC4W566o7lWpmF3w=w1666-h937-no?authuser=0);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    height: 60px;
+    width: 100%;
+}
+.content {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header-left h1 {
+    float: left;
+    font-family: fantasy;
+    font-size: 100px;
+    line-height: 10px;
+    margin-left: 15px;
+    color: black;
+}
+.header-right h2 {
+    float: right;
+    font-size: 50px;
+    font-family: fantasy;
+    width: 50%;
+    color: white;
+
+}
+.left-content {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+.profile-content {
+    margin-top: 80px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.profile-content h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.profile-content img {
+    width: 100px;
+    float: left;
+    margin: 0 20px 0 120px;
+}
+.profile-status p {
+    margin: 0 auto;
+    text-align: left;
+}
+.profile-status {
+    float: left;
+    margin-top: 20px;
+}
+.PR {
+    clear: left;
+    padding-top: 15px;
+}
+.PR p {
+    width: 520px;
+    margin: 0 auto;
+    text-align: left;
+}
+.pr-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 25px;
+}
+.skile {
+    overflow: hidden;
+    width: 520px;
+    margin: 0 auto;
+}
+.skile-map {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.skile h4 {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+.skile-map img {
+    width: 70px;
+    margin: 0 auto;
+    float: left;
+}
+.skile-menu {
+    float: left;
+    text-align: left;
+}
+.skile-menu ul {
+    margin: 0 0 30px 0;
+    
+}
+.right-content {
+    float: right;
+    width: 50%;
+    
+}
+.portfolio-content {
+    margin-top: 100px;
+
+}
+.portfolio {
+    color: white;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+.portfolio a:hover {
+    opacity: 0.6;
+}
+.portfolio img {
+    width: 400px;
+}
+.portfolio-text {
+    text-align: left;
+}
